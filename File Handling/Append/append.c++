@@ -6,7 +6,7 @@ int main()
 {
     fstream myfile;
     myfile.open("new.txt", ios::out | ios::app);
-    myfile <<" koochi";
+    myfile <<" Greetings";
     myfile.close();
     return 0;
 }
